@@ -1,37 +1,62 @@
-*{
+body{
     margin:0;
     padding:0;
 }
 
 header{
-    background-color: bisque;
+    background-color: rgb(97, 97, 97);
+    padding: 2%;
+    text-align: center;
+    color:white;
 }
 
-main{
-    background-color: aqua;
-    width: 85%;
-    float:right;
-}
-
-aside{
-    background-color: blueviolet;
-    width: 15%;
+header h1, h3{
+    margin:0 ;
 }
 
 nav{
-    background-color: chartreuse;
+    background-color: rgb(181, 181, 181);
 }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav li a {
+  display: block;
+  padding: 10px 10px;
+  background-color: #d7d7d7;
+  text-decoration: none;
+  color: #000000;
+}
+
+nav li a:hover{
+    background-color: red;
+    color:white
+}
+
+.active{
+    background-color: red;
+    color:white
+}
+
 
 footer{
     position: fixed;
+    bottom:0;
     width: 100%;
-    background-color: darkgreen;
+    background-color: red;
+    color: white;
+    text-align: center;
 }
 
-.contactButton{
-    background-color: chartreuse;
-    display: flex;
-    justify-content: center;
-    margin: 5% 25%;
-    border-radius: 5%;
+footer *{
+    margin:1%
 }
