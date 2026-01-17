@@ -47,6 +47,11 @@ nav li a:hover{
     color:white
 }
 
+main{
+    margin: 10%;
+     margin-top: 3%;
+}
+
 
 footer{
     position: fixed;
@@ -59,4 +64,12 @@ footer{
 
 footer *{
     margin:1%
+}
+
+p{
+    font-size: 18px;
+}
+
+li{
+    font-size: 18px;
 }
